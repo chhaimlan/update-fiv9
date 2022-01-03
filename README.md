@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+# hosting
+
+https://todo-fire-f229d.firebaseapp.com/
+
 In the project directory, you can run:
 
 ### `npm start`
