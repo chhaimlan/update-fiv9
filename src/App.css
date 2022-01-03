@@ -1,38 +1,74 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+input{
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 20px;
+}
+label{
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+button{
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 25px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+button:hover{
+  background-color: rebeccapurple;
+  cursor: pointer;
+}
+table{
+  text-align: center;
+  margin-left: 40%;
+  box-sizing: 1;
+}
+.flex-content{
+  display: flex;
+  border-radius: 20px;
+  background-color: gray;
+  height: 50px;
+  color: white;
+  margin: 10px 200px 0 200px;
+  align-items: center;
+}
+.flex-content:hover{
+  background-color: lightblue;
+ 
+}
+h4{
+  margin-left: 22%;
+  text-align: center;
+  justify-content: space-evenly;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .hedertable{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+} */
+
+
+.btn-increase{
+  margin-left: 30px;
+  background-color:#26bffb;
+}
+.btn-increase:hover{
+  background-color: cadetblue;
+  cursor: pointer;
+}
+.btn-delete{
+  margin-left: 30px;
+  background-color: #ff3c24;
+  
+}
+.btn-delete:hover{
+  background-color: #8070ff;
+  cursor: pointer;
 }
